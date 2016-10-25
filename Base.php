@@ -7,8 +7,15 @@
  */
 
 class Base {
-    function show() {
+    /*function show() {
         echo "Base";
+    }*/
+
+    public $a;
+
+    public function __construct ($a){
+        $this -> a = $a;
     }
+
 };
 ?>

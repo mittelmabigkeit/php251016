@@ -9,8 +9,14 @@
 require_once 'Base.php';
 
 class ProBase extends Base {
-    function show() {
+    /*function show() {
         echo "ProBase";
+    }*/
+
+    public $b;
+
+    public function __construct ($b){
+        $this -> b = $b;
     }
 };
 ?>
